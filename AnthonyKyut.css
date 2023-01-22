@@ -1,0 +1,91 @@
+*{
+  
+    text-decoration: none;
+}
+
+/* Background Picture */
+ 
+
+body{
+
+    background-color: black;
+    color: black;
+    background-image: url("images/picture.jpg");
+    background-repeat: no-repeat;
+    background-size: 750px 650px;
+    background-position: 70% 50% ;
+
+}
+
+/* NAV BAR */
+
+body .nav-bar{
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+body .nav-bar ul li {
+    font-size: 1.5em;
+    list-style: none;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+}
+
+body .nav-bar ul{
+
+    margin-top: 3vh;
+    text-decoration: none;
+    display: flex;
+
+}
+
+body .nav-bar ul li a {
+
+    font-family: 'Ubuntu', sans-serif;
+    color: aqua;
+}
+
+body .namelogo{
+    font-family: Poppins,sans-serif;
+    color: aqua;
+    position: absolute;
+    top:3vh;
+    left: 2vw;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+
+/* Name */
+
+.tittlecontainer{
+    color: aqua;
+    position: absolute;
+    top: 50%;
+    margin-left: 40vh;
+    
+}
+
+
+#para1{
+    font-size: 2em;
+    font-weight: 300;
+}
+
+#para2{
+    font-size: 3.5em;
+    font-weight: bold; 
+}
+
+#para3{
+    font-size: 2em;
+  
+}
+b{
+    font-weight: 600;
+}
+/* Picture */
+
+
+
